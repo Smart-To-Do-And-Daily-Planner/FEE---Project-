@@ -1,16 +1,68 @@
-# React + Vite
+# Smart To-Do and Daily Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
+Smart To-Do and Daily Planner is a React-based web application designed to help users organize their daily tasks, manage deadlines, and improve productivity. Users can create tasks, set priorities, track completion, and manage their schedules in one place.
 
-Currently, two official plugins are available:
+## Features
+- Add and manage daily tasks
+- Set task priorities (High, Medium, Low)
+- Set due dates for tasks
+- Mark tasks as completed
+- View and organize tasks
+- Calendar view for task scheduling
+- Responsive and user-friendly interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Tailwind CSS
 
-## React Compiler
+## Installation and Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Smart-To-Do-And-Daily-Planner/FEE---Project-.git
+   ```
 
-## Expanding the ESLint configuration
+2. Open the project folder:
+   ```bash
+   cd FEE---Project-
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal in a web browser.
+
+## Project Structure
+
+```text
+daily-planner/
+├── public/
+├── src/
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## Team Collaboration
+This project is developed collaboratively using Git and GitHub. Team members can work on separate branches, commit their changes, and submit pull requests for review.
+
+## Project Goal
+To provide a simple and effective tool for planning daily activities, tracking tasks, and managing time efficiently.
+
+---
+**Project:** Smart To-Do and Daily Planner  
+**Built with:** React.js and Vite
